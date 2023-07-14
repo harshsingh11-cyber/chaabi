@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# UI or Static React Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a UI or static React page template that can be used as a starting point for building static websites or user interfaces. It provides a basic structure and setup for developing React applications that don't require server-side rendering or dynamic content.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- React: The project is built using React, a popular JavaScript library for building user interfaces. React allows for the creation of reusable components and provides a declarative approach to building UIs.
 
-### `npm start`
+- Webpack: Webpack is used as the module bundler for this project. It helps bundle all the JavaScript, CSS, and other assets into a single file, optimizing the application for performance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Babel: Babel is used to transpile modern JavaScript syntax into a version of JavaScript that is supported by the target browsers. This allows developers to use the latest JavaScript features without worrying about browser compatibility.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- CSS Modules: The project uses CSS Modules to encapsulate CSS styles within components. This helps avoid style conflicts and promotes reusability.
 
-### `npm test`
+- ESlint: ESlint is set up with a basic configuration to ensure code quality and enforce consistent coding standards. It helps catch common programming errors and maintain a clean codebase.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To use this template, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine:
+  ```bash
+  git clone <url>
+```
+2. Install Packages :
+   ```bash
+   npm install
+   ```
+3. Start Now :
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project's folder structure is as follows:
 
-### `npm run eject`
+- `public/`: Contains the HTML template (`index.html`) and any static assets that need to be served directly.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `src/`: Contains the main source code files.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - `components/`: This directory should contain all the reusable React components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - `styles/`: Contains CSS stylesheets and SCSS files used in the project.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `App.js`: The entry point for the React application.
 
-## Learn More
+- `index.js`: The main JavaScript file that renders the React application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `webpack.config.js`: The configuration file for Webpack.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `.babelrc`: Configuration file for Babel.
 
-### Code Splitting
+- `.eslintrc`: Configuration file for ESLint.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
