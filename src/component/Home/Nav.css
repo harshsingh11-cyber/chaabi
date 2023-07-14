@@ -1,0 +1,105 @@
+.main_nav {
+    width: 356px;
+    height: 1298.353px;
+    box-shadow: 0px 11.633987426757812px 34.90196228027344px 0px rgba(17, 38, 146, 0.05);
+}
+
+.nav_first {
+    display: flex;
+    width: 484.55px;
+    height: 143.291px;
+    padding: 45.25px 60.333px 30.167px 60.333px;
+    align-items: center;
+    gap: 15.083px;
+}
+
+.nav_first img {
+    width: 204px;
+    height: 56.961px;
+    flex-shrink: 0;
+}
+
+.nav_sec {
+    display: flex;
+    width: 294.34px;
+    padding: 9.307px 27.922px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4.654px;
+    background: var(--foundation-blue-normal, #0D62FF);
+    box-shadow: 0px 2.3267974853515625px 4.653594970703125px 0px rgba(138, 146, 166, 0.30);
+}
+
+.both {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.both img {
+    width: 27.922px;
+    height: 27.922px;
+    margin-top: 16px;
+}
+
+.both p {
+    color: #FFF;
+
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 26.6px */
+    text-transform: capitalize;
+}
+
+.nav_third {
+    display: flex;
+    width: 317.608px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_one {
+    display: flex;
+    width: 271.072px;
+    /* padding: 9.307px 27.922px; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.all {
+    display: flex;
+    width: 150px;
+}
+
+.all p {
+    padding-left: 20px;
+    font-family: sans-serif;
+    color: var(--foundation-blue-normal, #0D62FF);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.all img {
+    width: 27.922px;
+    height: 27.922px;
+    margin-top: 15px;
+}
+
+.all_one p {
+    color: var(--foundation-blue-normal, #0D62FF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+}

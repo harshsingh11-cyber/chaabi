@@ -1,0 +1,157 @@
+.s_main {
+    width: 589px;
+    height: 302px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+}
+
+.s_main-1 {
+    width: 543.722px;
+    height: 256.334px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+}
+
+.head_s {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.head_s h5 {
+    margin: 0%;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: capitalize;
+    padding-top: 17px;
+    padding-left: 10px;
+}
+
+.head_s p {
+    display: flex;
+    width: 113px;
+    height: 18px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #0F2552;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.con_1{
+    display: flex;
+     flex-direction: row;
+     height: 100%;
+}
+
+.col-s{
+    width: 10%;
+    height: 85%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22.139px;
+
+}
+
+.allss {
+    color: #333;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.col-s1{
+    width: 90%;
+    height: 100%;
+}
+
+.col-g{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+
+}
+.col-p{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic{
+    position: relative;
+    top: 10px;
+}
+.pic-1{
+    position: relative;
+    top: 100px;
+}
+.pic-2{
+    position: relative;
+    top:47px;
+}
+.pic-3{
+    position: relative;
+    top: 75px;
+}
+.pic-4{
+    position: relative;
+    top: 40px;
+}
+.pic-5{
+    position: relative;
+    top: 75px;
+}
+.pic-6{
+    position: relative;
+    top: 22px;
+}
+.pic-7{
+    position: relative;
+    top: 75px;
+}
+.pic-8{
+    position: relative;
+    top: 100px;
+}
+.pic-9{
+    position: relative;
+    top: 75px;
+}
+.pic-10{
+    position: relative;
+    top: 75px;
+}
+.day{
+    color: #333;
+/* caption */
+font-family: sans-serif;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 15.4px */
+text-transform: capitalize;
+}

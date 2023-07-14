@@ -1,0 +1,73 @@
+.main_cap {
+    display: flex;
+    width: 316px;
+    height: 413px;
+    padding: 20px 17.315px 21.644px 17.315px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.329px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px #B4CEFF;
+}
+
+.main_cap h5 {
+    width: 284px;
+    height: 35px;
+    flex-shrink: 0;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.main_two {
+    width: 238px;
+    height: 238px;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+
+}
+
+.elips-1 {
+    position: absolute;
+    width: 226.518px;
+    height: 226.518px;
+    transform: rotate(35.021deg);
+    flex-shrink: 0;
+    background-color: chocolate;
+    stroke-width: 0.921px;
+    stroke: rgba(51, 51, 51, 0.10); 
+    z-index: 10;
+}
+.elips-1 img{
+    z-index: 10;
+}
+img{
+    z-index: 10000;
+}
+.elips-2 {
+   
+    width: 226.518px;
+    height: 226.518px;
+    transform: rotate(20.392deg);
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 0.921px;
+    stroke: rgba(51, 51, 51, 0.10);
+    position: absolute;
+    top:-17px;
+    left: -55px;
+    z-index: 20;
+}
+
+.elips-3 {}
+
+.elips-4 {}
+
+.elips-5 {}
