@@ -2,6 +2,9 @@
 
 This project is a UI or static React page template that can be used as a starting point for building static websites or user interfaces. It provides a basic structure and setup for developing React applications that don't require server-side rendering or dynamic content.
 
+## Hosted Link
+Live : -  [Click - Me](https://velvety-taffy-a0fc1a.netlify.app/)
+
 ## Features
 
 - React: The project is built using React, a popular JavaScript library for building user interfaces. React allows for the creation of reusable components and provides a declarative approach to building UIs.
@@ -52,5 +55,10 @@ The project's folder structure is as follows:
 - `.babelrc`: Configuration file for Babel.
 
 - `.eslintrc`: Configuration file for ESLint.
+
+
+## Screenshot
+![Screenshot (649)](https://github.com/harshsingh11-cyber/chaabi/assets/65847214/59818af7-e041-470b-ae29-91509dda5b1c)
+![Screenshot (650)](https://github.com/harshsingh11-cyber/chaabi/assets/65847214/449bcda5-2a62-427b-9f42-869a32522305)
 
 
